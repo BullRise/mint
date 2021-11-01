@@ -1,0 +1,70 @@
+ .parentDiv_myNfts{
+     min-height: 95vh;
+ }
+ .MY_NFTS_div {
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+ }
+
+ .MY_NFTS_div>p {
+     font-weight: lighter !important;
+ }
+ h1 {
+     font-size: xx-large;
+     font-weight: bolder;
+}
+
+ .MY_NFTS_div_inner {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .MY_NFTS_div_inner_btns_div {
+     border: 2px solid #E33C3D;
+     padding: 10px 20px;
+     display: flex;
+     justify-content: space-between;
+     width: 150px;
+     border-radius: 50px;
+ }
+
+ .MY_NFTS_div_inner_btns_div>button {
+     border: none;
+     background: transparent;
+     cursor: pointer;
+ }
+
+ .MY_NFTS_div_inner_select {
+     width: 150px;
+     padding: 10px 10px;
+     border-radius: 10px;
+     margin-left: 20px;
+ }
+
+ .MY_OFFERS_div_1{
+     display: flex;
+     align-items: center;
+     border: 1px solid black;
+     border-radius: 10px;
+     padding: 13px 10px 0px 10px;
+ }
+ .MY_OFFERS_div_1_1{
+     display: flex;
+     font-weight: lighter;
+     justify-content: start;
+     flex: 1;
+ }
+ .MY_OFFERS_div_1_2{
+    display: flex;
+    font-weight: lighter;
+    justify-content: start;
+    flex: 1;
+}
+.MY_OFFERS_div_1_3{
+    display: flex;
+    font-weight: lighter;
+    justify-content: start;
+    flex: 1;
+}

@@ -1,0 +1,202 @@
+.card_body_innerDiv_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_body_innerDiv_1>div>img {
+    width: 50px;
+}
+
+.card_body_innerDiv_2_1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px !important;
+}
+
+.card_body_innerDiv_2_1>p {
+    display: flex;
+    flex: 3;
+}
+
+.card_body_innerDiv_2_1_1 {
+    display: flex;
+    align-items: center;
+    flex: 6;
+}
+
+.cardBgOrange {
+    background-color: #E33C3D;
+}
+
+.cardBGGrey {
+    background-color: grey;
+}
+
+.card_body_innerDiv_2_1_1>p {
+    flex: 2;
+    height: 5px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 4px 4px 7px grey !important;
+}
+
+.twitterDiv {
+    width: 40px;
+    height: 40px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.ff {
+    font-weight: lighter;
+}
+
+/* popup */
+
+.popupMaindiv {
+    background-color: rgba(0, 0, 0, 0.623);
+    visibility: hidden;
+}
+
+.popupInnerdiv {
+    border-radius: 15px !important;
+    width: 800px;
+}
+
+.popupImgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.popupImgDiv>img {
+    /* width: 80%; */
+    border-radius: 20px;
+}
+
+.fontlighter {
+    font-size: 14px;
+}
+
+.tierParentdiv {
+    margin-top: -16px;
+}
+.tierParentdiv>p{
+    display: flex;
+    flex: 0.4;
+}
+
+.tierParentdiv>p:first-child{
+    /* background-color: red; */
+    margin-right: -160px;
+}
+/* .tierParentdiv>p:first-child{
+    display: flex;
+    flex: 1;
+} */
+
+.innerBoxDiv {
+    border: 1px solid #E33C3D;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.WavaxDiv {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.WavaxDiv>p {
+    display: flex;
+    flex: 2;
+}
+
+.WavaxDiv>input {
+    display: flex;
+    flex: 1;
+    width: 25%;
+    border: none;
+    border-bottom: 1px solid #E33C3D;
+    padding: 0px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.WavaxDiv>input::placeholder {
+    text-align: center;
+}
+
+.submitBtnDiv {
+    text-align: end;
+}
+
+.submitBtnDiv>button {
+    background-color: #E33C3D;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 2px 2px 4px grey;
+    cursor: pointer;
+}
+
+.crossIconDiv>i{
+ width: 50px;
+ height: 50px;
+ background-color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: x-large;
+border-radius: 50px;
+color: #E33C3D;
+cursor: pointer;
+}
+.crossIconDiv>i:hover{
+    color: red;
+    background-color: rgb(233, 231, 231);
+}
+#currTime{
+    font-size: small;
+}
+/* popup */
+
+@media(max-width:800px) {
+    .popupInnerdiv {
+        border-radius: 15px !important;
+        width: 75%;
+        max-height: 85vh;
+        overflow-y: scroll;
+    }
+    .tierParentdiv>p:first-child{
+        /* background-color: red; */
+        margin-right: -120px;
+    }
+}
+@media(max-width:600px) {
+    .popupInnerdiv {
+        border-radius: 15px !important;
+        width: 75%;
+        max-height: 85vh;
+        overflow-y: scroll;
+    }
+    .tierParentdiv>p:first-child{
+        /* background-color: red; */
+        margin-right: -80px;
+    }
+}
